@@ -1,0 +1,29 @@
+###
+GET http://localhost:4000/api/employees
+
+###
+POST http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "name": "fazt",
+    "email": "xxx@xx.com",
+    "password": "mmmm"
+}
+
+###
+
+GET http://localhost:4000/api/employees/5fbad6a7189817224070e903
+
+###
+DELETE http://localhost:4000/api/employees/5fbad6a7189817224070e903
+
+###
+PUT http://localhost:4000/api/employees/5fbae54f40fc1d18cc64fd4c
+Content-Type: application/json
+
+{
+    "name": "fazt",
+    "email": "xxx@xx.com",
+    "password": "holamundo222"
+}
